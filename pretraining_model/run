@@ -1,0 +1,6 @@
+pretraining
+--train_folder /home/yons/person/gyc/llvmirbert/dataset --learning_rate 5e-6 --temperature 0.1 --do_mlm --do_contrastive
+similarydection
+--train_json_path /home/yons/person/gyc/Contramlm/Contramlm/test1/merged_file.json  --test_json_path /home/yons/person/gyc/Contramlm/Contramlm/test1/merged_file.json  --pretraining_model_path /home/yons/person/gyc/Contramlm/Contramlm/output/pretraining/checkpoint/ContraMLM/20240523-191352/best_loss --learning_rate 2e-5 --seed 42
+test
+--test_filename /home/yons/person/gyc/Contramlm/Contramlm/test1/merged_file.json  --pretraining_model_path /home/yons/person/gyc/Contramlm/Contramlm/output/pretraining/checkpoint/ContraMLM/20240523-191352/best_loss
