@@ -8,7 +8,7 @@ Normalize LLVM IR from source code using (src)reg.py
 ```python  
 python ./dataset_constr/(src)reg.py
 ```
-Normalize LLVM IR from source code using (src)reg.py  
+Normalize LLVM IR from source code using (bin)reg1.py  
 ```python  
 python ./dataset_constr/(bin1)reg1.py
 ```
